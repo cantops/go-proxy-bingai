@@ -32,6 +32,10 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
+        baseUrl: 'https://bing-sydney.juzzpig.top',
+        label: 'JuzzPig Cloudflare',
+      },
+      {
         baseUrl: location.origin,
         label: '本站',
       },
